@@ -4,7 +4,7 @@ from langchain_core.runnables import RunnableLambda,RunnablePassthrough,Runnable
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import PromptTemplate
 import streamlit as st 
-hf_token = st.secrets["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"]
+hf_token = st.secrets["HUGGINGFACEHUB_API_TOKEN"]
 
 def output(retriever):
     
